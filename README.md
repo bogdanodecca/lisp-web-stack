@@ -1,10 +1,7 @@
 ```
 LLLLLLLLLLL             
 L:::::::::L             
-L:::::::::L             
 LL:::::::LL             
-  L:::::L               
-  L:::::L               
   L:::::L               
   L:::::L               
   L:::::L               
@@ -12,7 +9,6 @@ LL:::::::LL
   L:::::L               
   L:::::L         LLLLLL
 LL:::::::LLLLLLLLL:::::L
-L::::::::::::::::::::::L
 L::::::::::::::::::::::L
 LLLLLLLLLLLLLLLLLLLLLLLL
 ```
@@ -27,7 +23,7 @@ IMO lisp (specifically common lisp) is a very fun and enjoyable way to build ful
 
 - install `sbcl`
 - install `quicklisp` (through your package manager or https://www.quicklisp.org/beta/#installation)
-- run `sbcl --load tutorial.lisp` and open localhost:5555
+- run `sbcl --load tutorial.lisp` and open http://localhost:5555
 - later you can setup up an editor for comfortable editing like shown further below
 
 ## the code
@@ -54,7 +50,7 @@ i understand that the code is a mess but i just don't have time to refactor and 
 
 - it is old, tested and stable
 - it has macros
-- it is multiparadigm (= very flexible), see lisp compared to other languages [Wikipedia: Comparison of multi-paradigm programming languages](https://en.wikipedia.org/w/index.php?title=Comparison_of_multi-paradigm_programming_languages&oldid=1278926551#Language_overview)
+- it is multiparadigm (= very flexible), see how lisp compares to other languages: [wikipedia: comparison of multi-paradigm programming languages](https://en.wikipedia.org/w/index.php?title=Comparison_of_multi-paradigm_programming_languages&oldid=1278926551#Language_overview)
   - most interestingly it supports metaprogramming and functional programming
 - it has s-exps which are easy to edit with vim bindings, makes refactoring easy
   - no need to learn a lot of syntactic sugar like other languages
