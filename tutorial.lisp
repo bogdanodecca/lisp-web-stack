@@ -1,4 +1,6 @@
-(load "quicklisp/setup.lisp")
+(let ((quicklisp-init "quicklisp/setup.lisp"))
+	(when (probe-file quicklisp-init)
+	      (load quicklisp-init)))
 
 (mapc #'ql:quickload
       '(:cl-fad :cl-who :hunchentoot :parenscript :cl-utilities :cl-ppcre))
