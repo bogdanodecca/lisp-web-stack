@@ -1,3 +1,5 @@
+(load "quicklisp/setup.lisp")
+
 (mapc #'ql:quickload
       '(:cl-fad :cl-who :hunchentoot :parenscript :cl-utilities :cl-ppcre))
 
